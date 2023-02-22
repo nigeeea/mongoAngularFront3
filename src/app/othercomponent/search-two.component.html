@@ -1,0 +1,7 @@
+<h2>Search with limit and offset</h2>
+
+<form [formGroup]="offsetLimitForm" (ngSubmit)="offsetLimitSearch()">
+    <input type="text" placeholder="input the offset" formControlName="offset">
+    <input type="text" placeholder="limit" formControlName="limit">
+    <button type="submit">Search</button>
+</form>

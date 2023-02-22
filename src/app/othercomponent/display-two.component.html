@@ -1,0 +1,19 @@
+<p>display-two works!</p>
+
+<div *ngFor="let g of games">
+    <code>{{ g.name }}</code>
+  </div>
+  
+  <br>
+  
+  <table>
+    <tbody *ngFor="let g of games">
+      <tr>
+          <td>Release Year:</td>
+          <td>{{g.year}}</td>
+          <td><br></td>
+          <td>Game Title:</td>
+          <td>{{g.name}}</td>
+      </tr>
+    </tbody>
+  </table>
